@@ -3,7 +3,7 @@ import time
 
 start_time = time.time()
 words = {}
-s = open("Assignment#7\movie_reviews.txt", "r").read().split("\n")
+s = open("Python-Basic-Sentiment-Analysis\movie_reviews.txt", "r").read().split("\n")
 
 for i in s:#line
     i = i.lower()
